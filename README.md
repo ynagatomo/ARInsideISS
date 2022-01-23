@@ -7,7 +7,7 @@ An iOS AR app that allows you to walk in the International Space Station.
 - Xcode 13.2.1
 - Target: iOS / iPadOS 14.0+
 
-This is a minimal implementation of an AR iOS app that allows users to explore structures in a closed space. Pleaes add features like animations, sounds, interactions and more as you like.
+This is a minimal implementation of an AR iOS app that allows users to explore structures in a closed space. Please add features like animations, sounds, interactions, and more as you like.
 
 
 The ISS 3d data is provided by NASA. Thank you for sharing great resources.
