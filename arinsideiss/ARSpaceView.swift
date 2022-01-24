@@ -27,6 +27,12 @@ struct ARSpaceView: UIViewRepresentable {
         }
 
         let config = ARWorldTrackingConfiguration()
+        if ARWorldTrackingConfiguration.supportsFrameSemantics(.personSegmentationWithDepth) {
+            print("DEBUG: personSegmentationWithDepth is supported.")
+            config.frameSemantics.insert(.personSegmentationWithDepth)
+        } else {
+            print("DEBUG: personSegmentationWithDepth is not supported.")
+        }
         arView.session.run(config)
 
         return arView
